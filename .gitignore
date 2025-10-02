@@ -1,0 +1,37 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and secrets
+.env
+*.env
+env/
+venv/
+*.pem
+*_API_KEY.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (only a small sample should be in the repo)
+/data/*
+!/data/sample_dataset.csv
+/high_purity_golden_datasets/
+/pipeline_checkpoints/
+/labeled_datasets/
+
+# Model artifacts and logs
+/models/
+/logs/
+*.pt
+*.pth
+*.safetensors
+*.pkl
+*.joblib
+roberta-10-class-classifier/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

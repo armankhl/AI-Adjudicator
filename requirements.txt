@@ -1,0 +1,27 @@
+# Core data and numerical libraries
+pandas
+pandera
+pyarrow
+numpy
+scikit-learn
+
+# Text processing and NLP
+beautifulsoup4
+ftfy
+textstat
+langdetect
+sentence-transformers
+transformers[torch]
+spacy
+nltk
+bert-score
+radon
+lxml
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+python-dotenv
